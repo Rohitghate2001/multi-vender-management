@@ -66,17 +66,17 @@ http://localhost:8000/admin  --for admin
 venderList
 ![Screenshot (317)](https://github.com/Rohitghate2001/multi-vender-management/assets/147127996/b05b4e47-75f8-44ab-81db-21ca84d833d5)
 
+
 Specific vender details by vender id
-![Screenshot (317)](https://github.com/Rohitghate2001/multi-vender-management/assets/147127996/ead9d936-fd36-45fd-8e69-35f93f000821)
+![Screenshot (318)](https://github.com/Rohitghate2001/multi-vender-management/assets/147127996/ab00a998-320d-4968-88fc-4f2ae630dbbb)
+
 
 purchase orderds
-![Screenshot (319)](https://github.com/Rohitghate2001/multi-vender-management/assets/147127996/9cdeaa9a-d122-4301-beb2-467707c5aeca)
-
-purchase order by specific order id
-
 ![Screenshot (316)](https://github.com/Rohitghate2001/multi-vender-management/assets/147127996/cf0937c6-a845-461d-8bbb-389d8bb0f261)
 
 
+purchase order by specific order id
+![Screenshot (319)](https://github.com/Rohitghate2001/multi-vender-management/assets/147127996/9cdeaa9a-d122-4301-beb2-467707c5aeca)
 
 
 
