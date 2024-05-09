@@ -1,6 +1,6 @@
 Multi vender Management system
 
-Introduction:****
+<b>Introduction:</b>
 
 The multi Vendor Management System, developed using Django,django_rest_framework is a web application.
 
