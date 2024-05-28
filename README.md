@@ -25,39 +25,39 @@ Vendor Profile Management:</br>
   GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details.</br>
   PUT /api/vendors/{vendor_id}/: Update a vendor's details.</br>
   DELETE /api/vendors/{vendor_id}/: Delete a vendor.</br>
+</br>
+Purchase Order Tracking:</br>
+  POST /api/purchase_orders/: Create a purchase order.</br>
+  GET /api/purchase_orders/: List all purchase orders with an option to filter by vendor.</br>
+  GET /api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order.</br>
+  PUT /api/purchase_orders/{po_id}/: Update a purchase order.</br>
+  DELETE /api/purchase_orders/{po_id}/: Delete a purchase order</br>
 
-Purchase Order Tracking:
-  POST /api/purchase_orders/: Create a purchase order.
-  GET /api/purchase_orders/: List all purchase orders with an option to filter by vendor.
-  GET /api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order.
-  PUT /api/purchase_orders/{po_id}/: Update a purchase order.
-  DELETE /api/purchase_orders/{po_id}/: Delete a purchase order
-
-****Technologies Used
-python ,django ,sqlite3
+****Technologies Used</br>
+python ,django ,sqlite3</br>
 
 
-Installation Process****
+Installation Process****</br>
 
-python -m venv env_name
+python -m venv env_name</br>
 
-source venv/Scripts/activate
+source venv/Scripts/activate</br>
 
-pip install django
+pip install django</br>
 
-pip install djangorestframework
+pip install djangorestframework</br>
 
-python manage.py makemigrations 
+python manage.py makemigrations </br>
 
-python manage.py migrate
+python manage.py migrate</br>
 
-python manage.py createsuperuser 
+python manage.py createsuperuser </br>
 
-python manage.py runserver
+python manage.py runserver</br>
 
-http://localhost:8000/vendors/  --for vendor list
+http://localhost:8000/vendors/  --for vendor list</br>
 
-http://localhost:8000/admin  --for admin
+http://localhost:8000/admin  --for admin</br>
 
 
 
