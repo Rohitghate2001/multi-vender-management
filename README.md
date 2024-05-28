@@ -2,29 +2,29 @@ Multi vender Management system
 
 <b>Introduction:</b>
 
-The multi Vendor Management System, developed using Django,django_rest_framework is a web application.
+The multi Vendor Management System, developed using Django,django_rest_framework is a web application.</br>
 
 It encompasses functionalities for managing vendor profiles, tracking purchase orders, and evaluating vendor performance.
 
 Users can create, update, and delete vendor profiles, monitor purchase orders, and assess vendor performance metrics such as on-time delivery rate, quality rating average, average response time, and fulfillment rate.
 
-Features****
-User/Admin can add or remove vendors
-can get vender list
-can get information of specific vender
-Easy to use
-API endpoints can be checked using Django ORM
-No need of any tools is needed for API endpoints checking.
+Features****</br>
+User/Admin can add or remove vendors</br>
+can get vender list</br>
+can get information of specific vender</br>
+Easy to use</br>
+API endpoints can be checked using Django ORM</br>
+No need of any tools is needed for API endpoints checking.</br>
 
 
 ****API Reference
 
-Vendor Profile Management:
-  POST /api/vendors/: Create a new vendor.
-  GET /api/vendors/: List all vendors.
-  GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details.
-  PUT /api/vendors/{vendor_id}/: Update a vendor's details.
-  DELETE /api/vendors/{vendor_id}/: Delete a vendor.
+Vendor Profile Management:</br>
+  POST /api/vendors/: Create a new vendor.</br>
+  GET /api/vendors/: List all vendors.</br>
+  GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details.</br>
+  PUT /api/vendors/{vendor_id}/: Update a vendor's details.</br>
+  DELETE /api/vendors/{vendor_id}/: Delete a vendor.</br>
 
 Purchase Order Tracking:
   POST /api/purchase_orders/: Create a purchase order.
